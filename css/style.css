@@ -1,0 +1,188 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+header{
+    background-image: url(../img/first-bg.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-top: 30px;
+    padding-bottom: 140px;
+}
+.center{
+    width: 80%;
+    margin: 0 auto;
+}
+.text-center{
+    text-align: center;
+}
+.flex_container{
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 50px;
+    color: white;
+    font-weight: 100;
+    padding-top: 150px;
+    padding-bottom: 20px;
+}
+header input{
+    width: 320px;
+    height: 30px;
+    padding: 5px;
+    border: none;
+}
+header input::placeholder{
+    color: rgb(139, 139, 139);
+}
+header button{
+    width: 100px;
+    height: 30px;
+    border: none;
+    background-color: rgb(253, 79, 50);
+    color: white;
+    margin-left: -4px;
+}
+#sec1{
+    background-color: rgb(238, 238, 238);
+    padding-top: 40px;
+    padding-bottom: 60px;
+}
+#sec1 h4{
+    font-size: 16px;
+    font-family:'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;;
+}
+#sec1 p{
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 4px;
+}
+#sec1 .photo{
+    width: 270px;
+    margin-top: 40px;
+    background-color: white
+}
+#sec1 .photo h5{
+    text-transform: uppercase;
+    padding: 10px;
+}
+#sec1 .photo p{
+    padding: 0px 10px 5px 10px;
+}
+#sec2{
+    padding-top: 50px;
+    padding-bottom: 50px
+}
+#sec2 h2{
+    padding-top: 50px;
+    font-size: 52px;
+    font-weight: 100;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+.text{
+    width: 25%;
+    padding-top: 40px;
+}
+#sec2 h5{
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+#sec2 p{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    padding-top: 8px;
+}
+footer{
+    background-color: rgb(238, 238, 238);
+}
+footer .text2 p{
+    padding: 20px 0;
+    color: rgb(139, 139, 139);
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+footer ul{
+    display: flex;
+    padding: 20px 0;
+}
+footer li{
+    list-style-type: none;
+}
+footer a{
+    text-decoration: none;
+    font-size: 14px;
+    color: rgb(50, 50, 50);
+    padding: 10px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* @media */
+@media screen and (max-width: 1200px){
+#sec1 .flex_container{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.photo{
+    margin: 0 20px ;
+}
+}
+@media screen and (max-width: 900px){
+    header{
+        padding-bottom: 30px;
+    }
+    h1{
+        padding-top: 20px;
+        font-size: 40px;
+    }
+    #sec2 .flex_container{
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .text{
+        width: 200px;
+    }
+}
+@media screen and (max-width: 768px){
+    .text {
+        width: 100%;
+    }
+    header input{
+        width: 100%;
+    }
+    h1{
+        font-size: 30px;
+    }
+    button{
+        margin-top: 10px;
+    }
+    footer .flex_container{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 560px){
+    
+}
+ 
